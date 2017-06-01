@@ -1,9 +1,9 @@
-﻿Log file open, 06/01/17 18:09:07
+﻿Log file open, 06/01/17 18:23:41
 LogInit:Display: Running engine for game: MirrorGameJam
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(82720056) SRandInit(82720056).
+LogInit:Display: RandInit(-1312524413) SRandInit(-1312524413).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.076353
+LogStats: Stats thread started at 0.075283
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,158 +50,158 @@ LogInit: Base directory: E:/UE4/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.01-16.09.08:071][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.01-16.09.08:071][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.01-16.09.08:076][  0]LogInit: Computer: THOMAS
-[2017.06.01-16.09.08:076][  0]LogInit: User: Thomas
-[2017.06.01-16.09.08:076][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.06.01-16.09.08:076][  0]LogInit: High frequency timer resolution =3.319348 MHz
-[2017.06.01-16.09.08:077][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.06.01-16.09.08:077][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.01-16.09.08:077][  0]LogMemory: Process Physical Memory: 274.11 MB used, 274.11 MB peak
-[2017.06.01-16.09.08:077][  0]LogMemory: Process Virtual Memory: 266.52 MB used, 266.52 MB peak
-[2017.06.01-16.09.08:077][  0]LogMemory: Physical Memory: 6548.96 MB used,  1573.60 MB free, 8122.56 MB total
-[2017.06.01-16.09.08:077][  0]LogMemory: Virtual Memory: 651.87 MB used,  1573.60 MB free, 134217728.00 MB total
-[2017.06.01-16.09.08:117][  0]LogInit: Using OS detected language (de-DE).
-[2017.06.01-16.09.08:117][  0]LogInit: Using OS detected locale (de-DE).
-[2017.06.01-16.09.08:120][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
-[2017.06.01-16.09.08:120][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
-[2017.06.01-16.09.08:799][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.01-16.09.09:296][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
-[2017.06.01-16.09.09:296][  0]LogD3D11RHI:       3039/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.06.01-16.09.09:297][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.01-16.09.09:297][  0]LogD3D11RHI:       0/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.01-16.09.09:297][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.01-16.09.09:302][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.01-16.09.09:302][  0]LogD3D11RHI:     GPU DeviceId: 0x1004 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.01-16.09.09:302][  0]LogWindows: EnumDisplayDevices:
-[2017.06.01-16.09.09:303][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780' (P:1 D:1)
-[2017.06.01-16.09.09:303][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780' (P:0 D:0)
-[2017.06.01-16.09.09:303][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780' (P:0 D:0)
-[2017.06.01-16.09.09:303][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780' (P:0 D:0)
-[2017.06.01-16.09.09:303][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.06.01-16.09.09:303][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
-[2017.06.01-16.09.09:303][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
-[2017.06.01-16.09.09:303][  0]LogD3D11RHI:      Driver Date: 5-17-2017
-[2017.06.01-16.09.09:303][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.01-16.09.09:751][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.01-16.09.09:772][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.06.01-16.09.09:820][  0]LogShaderCompilers: Guid format shader working directory is 9 characters bigger than the processId version (../../../../../../GitHub/MirrorGameJam/Intermediate/Shaders/WorkingDirectory/9116/).
-[2017.06.01-16.09.09:820][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas/AppData/Local/Temp/UnrealShaderWorkingDir/162ECA4945C4927FB97584BFC4AC600F/'.
-[2017.06.01-16.09.09:820][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.01-16.09.10:597][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.01-16.09.10:627][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.01-16.09.10:657][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.01-16.09.10:686][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.01-16.09.10:716][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.01-16.09.10:745][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.01-16.09.10:775][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.01-16.09.10:805][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.01-16.09.10:829][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.01-16.09.10:859][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.01-16.09.10:888][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.01-16.09.10:916][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.01-16.09.10:945][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.01-16.09.10:974][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.01-16.09.11:003][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.01-16.09.11:061][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.01-16.09.11:061][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.01-16.09.11:082][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.01-16.09.11:144][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.01-16.09.11:162][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.01-16.09.11:190][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.01-16.09.11:219][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.01-16.09.11:248][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.01-16.09.11:277][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.01-16.09.11:277][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.01-16.09.11:539][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.01-16.09.11:614][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.01-16.09.11:614][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Thomas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.06.01-16.09.11:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/MirrorGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.01-16.09.11:614][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.01-16.09.11:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/MirrorGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.01-16.09.11:614][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.01-16.09.11:627][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.01-16.09.11:638][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.01-16.09.11:646][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.06.01-16.09.11:646][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.01-16.09.11:646][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.01-16.09.11:646][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.01-16.09.11:887][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.01-16.09.11:939][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.01-16.09.12:043][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.01-16.09.12:067][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.01-16.09.12:093][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.01-16.09.12:093][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.01-16.09.12:093][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.01-16.09.12:445][  0]LogNetVersion: MirrorGameJam , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4268874848)
-[2017.06.01-16.09.12:492][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
-[2017.06.01-16.09.12:513][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.009514 seconds
-[2017.06.01-16.09.12:517][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.06.01-16.09.12:517][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.06.01-16.09.12:517][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.01-16.09.12:550][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.01-16.09.14:100][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.01-16.09.14:128][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.01-16.09.14:438][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.01-16.09.14:663][  0]SourceControl: Info Source control is disabled
-[2017.06.01-16.09.14:664][  0]SourceControl: Info Source control is disabled
-[2017.06.01-16.09.14:690][  0]SourceControl: Info Source control is disabled
-[2017.06.01-16.09.14:716][  0]SourceControl: Info Source control is disabled
-[2017.06.01-16.09.15:094][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.06.01-16.09.15:422][  0]LogEngine: Initializing Engine...
-[2017.06.01-16.09.15:423][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.06.01-16.09.15:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.01-16.09.15:572][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.01-16.09.15:645][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.01-16.09.15:652][  0]LogInit: XAudio2 using 'Kopfhörer (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.01-16.09.15:668][  0]LogInit: FAudioDevice initialized.
-[2017.06.01-16.09.15:705][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.01-16.09.15:712][  0]LogInit: Texture streaming: Enabled
-[2017.06.01-16.09.15:764][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.01-16.09.15:884][  0]LogInit: Transaction tracking system initialized
-[2017.06.01-16.09.16:057][  0]BlueprintLog: New page: Editor Load
-[2017.06.01-16.09.16:562][  0]LocalizationService: Info Localization service is disabled
-[2017.06.01-16.09.16:941][  0]LogConsoleResponse:Display: 
-[2017.06.01-16.09.17:042][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.01-16.09.17:042][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.01-16.09.17:623][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/MirrorGameJam/Content/' took 0.01s
-[2017.06.01-16.09.17:623][  0]SourceControl: Info Source control is disabled
-[2017.06.01-16.09.17:623][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/MirrorGameJam/Content/TestLevel_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.01-16.09.17:623][  0]LightingResults: New page: Lighting Build
-[2017.06.01-16.09.17:646][  0]MapCheck: New page: Map Check
-[2017.06.01-16.09.17:646][  0]LightingResults: New page: Lighting Build
-[2017.06.01-16.09.17:828][  0]LogAIModule: Creating AISystem for world TestLevel_01
-[2017.06.01-16.09.17:834][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.01-16.09.17:847][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.01-16.09.17:877][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.323ms to complete.
-[2017.06.01-16.09.17:877][  0]LogFileHelpers: Loading map 'TestLevel_01' took 0.254
-[2017.06.01-16.09.17:933][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.01-16.09.17:933][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.01-16.09.17:984][  0]LogCollectionManager: Loaded 0 collections in 0.000717 seconds
-[2017.06.01-16.09.18:042][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/MirrorGameJam/Saved/Collections/' took 0.01s
-[2017.06.01-16.09.18:042][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/MirrorGameJam/Content/Developers/Thomas/Collections/' took 0.01s
-[2017.06.01-16.09.18:042][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/MirrorGameJam/Content/Collections/' took 0.01s
-[2017.06.01-16.09.18:042][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.06.01-16.09.18:049][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2329 classes and 491 folders.
-[2017.06.01-16.09.18:084][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.06.01-16.09.18:109][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.06.01-16.09.18:134][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.06.01-16.09.18:159][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.01-16.09.18:163][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.01-16.09.18:165][  0]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.01-16.09.18:170][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.01-16.09.18:266][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:1).
-[2017.06.01-16.09.18:318][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.01-16.09.18:376][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.01-16.09.18:422][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.06.01-16.09.18:422][  0]LogLoad: (Engine Initialization) Total time: 11.36 seconds
-[2017.06.01-16.09.18:422][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
-[2017.06.01-16.09.18:422][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.06.01-16.09.18:422][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.06.01-16.09.18:433][  0]LogOcInput: OculusInput pre-init called
-[2017.06.01-16.09.18:433][  0]LogHMD: Starting GearVRController plugin
-[2017.06.01-16.09.18:444][  0]LogAssetRegistry: Asset discovery search completed in 5.9742 seconds
-[2017.06.01-16.09.18:445][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2017.06.01-16.09.18:445][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
-[2017.06.01-16.09.18:448][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.01-16.23.41:698][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.01-16.23.41:698][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.01-16.23.41:721][  0]LogInit: Computer: THOMAS
+[2017.06.01-16.23.41:721][  0]LogInit: User: Thomas
+[2017.06.01-16.23.41:721][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.01-16.23.41:721][  0]LogInit: High frequency timer resolution =3.319348 MHz
+[2017.06.01-16.23.41:721][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.01-16.23.41:721][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.01-16.23.41:721][  0]LogMemory: Process Physical Memory: 274.32 MB used, 274.32 MB peak
+[2017.06.01-16.23.41:721][  0]LogMemory: Process Virtual Memory: 266.71 MB used, 266.71 MB peak
+[2017.06.01-16.23.41:721][  0]LogMemory: Physical Memory: 6722.96 MB used,  1399.60 MB free, 8122.56 MB total
+[2017.06.01-16.23.41:721][  0]LogMemory: Virtual Memory: 651.87 MB used,  1399.60 MB free, 134217728.00 MB total
+[2017.06.01-16.23.41:762][  0]LogInit: Using OS detected language (de-DE).
+[2017.06.01-16.23.41:762][  0]LogInit: Using OS detected locale (de-DE).
+[2017.06.01-16.23.41:764][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the language.
+[2017.06.01-16.23.41:764][  0]LogTextLocalizationManager: No localization for 'de-DE' exists, so 'en' will be used for the locale.
+[2017.06.01-16.23.42:425][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.01-16.23.42:935][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2017.06.01-16.23.42:935][  0]LogD3D11RHI:       3039/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.01-16.23.42:936][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.01-16.23.42:937][  0]LogD3D11RHI:       0/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.01-16.23.42:937][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.01-16.23.42:942][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.01-16.23.42:942][  0]LogD3D11RHI:     GPU DeviceId: 0x1004 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.01-16.23.42:942][  0]LogWindows: EnumDisplayDevices:
+[2017.06.01-16.23.42:943][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780' (P:1 D:1)
+[2017.06.01-16.23.42:943][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.06.01-16.23.42:943][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.06.01-16.23.42:943][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2017.06.01-16.23.42:943][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.01-16.23.42:943][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2017.06.01-16.23.42:943][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.01-16.23.42:943][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.01-16.23.42:943][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.01-16.23.43:411][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.01-16.23.43:438][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.01-16.23.43:486][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../../GitHub/MirrorGameJam/Intermediate/Shaders/WorkingDirectory/18652/).
+[2017.06.01-16.23.43:486][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas/AppData/Local/Temp/UnrealShaderWorkingDir/B575CEE745AF08C662B131AC8F48BCC6/'.
+[2017.06.01-16.23.43:486][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.01-16.23.44:263][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.01-16.23.44:293][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.01-16.23.44:323][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.01-16.23.44:352][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.01-16.23.44:382][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.01-16.23.44:411][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.01-16.23.44:442][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.01-16.23.44:472][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.01-16.23.44:498][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.01-16.23.44:528][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.01-16.23.44:558][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.01-16.23.44:588][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.01-16.23.44:617][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.01-16.23.44:646][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.01-16.23.44:677][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.01-16.23.44:735][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.01-16.23.44:735][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.01-16.23.44:756][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.01-16.23.44:818][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.01-16.23.44:836][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.01-16.23.44:865][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.01-16.23.44:894][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.01-16.23.44:923][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.01-16.23.44:952][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.01-16.23.44:952][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.01-16.23.45:226][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.01-16.23.45:300][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.01-16.23.45:300][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Thomas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.01-16.23.45:300][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GitHub/MirrorGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.01-16.23.45:300][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.01-16.23.45:300][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GitHub/MirrorGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.01-16.23.45:300][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.01-16.23.45:313][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.01-16.23.45:325][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.01-16.23.45:332][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.01-16.23.45:332][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.01-16.23.45:333][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.01-16.23.45:333][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.01-16.23.45:564][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.01-16.23.45:622][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.01-16.23.45:731][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.01-16.23.45:757][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.01-16.23.45:784][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.01-16.23.45:784][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.01-16.23.45:784][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.01-16.23.46:173][  0]LogNetVersion: MirrorGameJam , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4268874848)
+[2017.06.01-16.23.46:222][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
+[2017.06.01-16.23.46:247][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.011337 seconds
+[2017.06.01-16.23.46:252][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.01-16.23.46:252][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.01-16.23.46:252][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.01-16.23.46:288][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.01-16.23.47:828][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.01-16.23.47:855][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.01-16.23.48:171][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.01-16.23.48:406][  0]SourceControl: Info Source control is disabled
+[2017.06.01-16.23.48:406][  0]SourceControl: Info Source control is disabled
+[2017.06.01-16.23.48:433][  0]SourceControl: Info Source control is disabled
+[2017.06.01-16.23.48:459][  0]SourceControl: Info Source control is disabled
+[2017.06.01-16.23.48:842][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.01-16.23.49:185][  0]LogEngine: Initializing Engine...
+[2017.06.01-16.23.49:185][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.01-16.23.49:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.01-16.23.49:341][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.01-16.23.49:418][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.01-16.23.49:426][  0]LogInit: XAudio2 using 'Kopfhörer (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.01-16.23.49:443][  0]LogInit: FAudioDevice initialized.
+[2017.06.01-16.23.49:480][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.01-16.23.49:487][  0]LogInit: Texture streaming: Enabled
+[2017.06.01-16.23.49:542][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.01-16.23.49:673][  0]LogInit: Transaction tracking system initialized
+[2017.06.01-16.23.49:848][  0]BlueprintLog: New page: Editor Load
+[2017.06.01-16.23.50:420][  0]LocalizationService: Info Localization service is disabled
+[2017.06.01-16.23.50:868][  0]LogConsoleResponse:Display: 
+[2017.06.01-16.23.51:022][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.01-16.23.51:022][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.01-16.23.51:616][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/MirrorGameJam/Content/' took 0.02s
+[2017.06.01-16.23.51:616][  0]SourceControl: Info Source control is disabled
+[2017.06.01-16.23.51:616][  0]Cmd: MAP LOAD FILE="../../../../../../GitHub/MirrorGameJam/Content/TestLevel_01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.01-16.23.51:616][  0]LightingResults: New page: Lighting Build
+[2017.06.01-16.23.51:641][  0]MapCheck: New page: Map Check
+[2017.06.01-16.23.51:641][  0]LightingResults: New page: Lighting Build
+[2017.06.01-16.23.51:839][  0]LogAIModule: Creating AISystem for world TestLevel_01
+[2017.06.01-16.23.51:844][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.01-16.23.51:854][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.01-16.23.51:883][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.593ms to complete.
+[2017.06.01-16.23.51:884][  0]LogFileHelpers: Loading map 'TestLevel_01' took 0.267
+[2017.06.01-16.23.51:950][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.01-16.23.51:950][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.01-16.23.52:078][  0]LogCollectionManager: Loaded 0 collections in 0.000701 seconds
+[2017.06.01-16.23.52:137][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/MirrorGameJam/Saved/Collections/' took 0.01s
+[2017.06.01-16.23.52:137][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/MirrorGameJam/Content/Developers/Thomas/Collections/' took 0.01s
+[2017.06.01-16.23.52:137][  0]LogFileCache: Scanning file cache for directory 'E:/GitHub/MirrorGameJam/Content/Collections/' took 0.01s
+[2017.06.01-16.23.52:137][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.01-16.23.52:144][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2329 classes and 491 folders.
+[2017.06.01-16.23.52:179][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.01-16.23.53:209][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.01-16.23.53:252][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.01-16.23.53:277][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.01-16.23.53:284][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.01-16.23.53:286][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.01-16.23.53:300][  0]LogSlate: Took 0.010306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.01-16.23.53:387][  0]LogRenderer: Reallocating scene render targets to support 1208x600 NumSamples 1 (Frame:1).
+[2017.06.01-16.23.53:506][  0]LogSlate: Took 0.074013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.01-16.23.53:554][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.01-16.23.53:601][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.01-16.23.53:601][  0]LogLoad: (Engine Initialization) Total time: 12.95 seconds
+[2017.06.01-16.23.53:601][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.06.01-16.23.53:601][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.01-16.23.53:601][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.01-16.23.53:614][  0]LogOcInput: OculusInput pre-init called
+[2017.06.01-16.23.53:614][  0]LogHMD: Starting GearVRController plugin
+[2017.06.01-16.23.53:625][  0]LogAssetRegistry: Asset discovery search completed in 7.4251 seconds
+[2017.06.01-16.23.53:627][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.06.01-16.23.53:627][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.06.01-16.23.53:629][  0]LogContentStreaming: Texture pool size now 1000 MB
