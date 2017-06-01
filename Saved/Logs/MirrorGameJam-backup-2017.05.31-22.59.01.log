@@ -1,0 +1,916 @@
+﻿Log file open, 05/31/17 20:01:19
+LogInit:Display: Running engine for game: MirrorGameJam
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-945241143) SRandInit(-945241143).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.157208
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.31-18.01.21:478][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.31-18.01.21:478][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.31-18.01.21:546][  0]LogInit: Computer: DESKTOP-GSDUFVJ
+[2017.05.31-18.01.21:546][  0]LogInit: User: liormax
+[2017.05.31-18.01.21:546][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.05.31-18.01.21:546][  0]LogInit: High frequency timer resolution =2.435874 MHz
+[2017.05.31-18.01.21:547][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx)
+[2017.05.31-18.01.21:547][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.31-18.01.21:547][  0]LogMemory: Process Physical Memory: 272.65 MB used, 272.65 MB peak
+[2017.05.31-18.01.21:547][  0]LogMemory: Process Virtual Memory: 258.67 MB used, 258.67 MB peak
+[2017.05.31-18.01.21:547][  0]LogMemory: Physical Memory: 5359.04 MB used,  636.82 MB free, 5995.86 MB total
+[2017.05.31-18.01.21:547][  0]LogMemory: Virtual Memory: 642.36 MB used,  636.82 MB free, 134217728.00 MB total
+[2017.05.31-18.01.21:877][  0]LogInit: Using OS detected language (en-US).
+[2017.05.31-18.01.21:877][  0]LogInit: Using OS detected locale (en-US).
+[2017.05.31-18.01.21:892][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.05.31-18.01.25:098][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.31-18.01.25:111][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
+[2017.05.31-18.01.25:111][  0]LogD3D11RHI:       128/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.31-18.01.25:116][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.31-18.01.25:116][  0]LogD3D11RHI:       0/0/2997 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.31-18.01.25:116][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.31-18.01.25:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.31-18.01.25:127][  0]LogD3D11RHI:     GPU DeviceId: 0x126 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.31-18.01.25:127][  0]LogWindows: EnumDisplayDevices:
+[2017.05.31-18.01.25:128][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
+[2017.05.31-18.01.25:128][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:0)
+[2017.05.31-18.01.25:129][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.05.31-18.01.25:129][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
+[2017.05.31-18.01.25:129][  0]LogD3D11RHI:   Driver Version: 9.17.10.4459 (internal:9.17.10.4459, unified:9.17.10.4459)
+[2017.05.31-18.01.25:129][  0]LogD3D11RHI:      Driver Date: 5-19-2016
+[2017.05.31-18.01.25:129][  0]LogRHI: Texture pool is 660 MB (70% of 944 MB)
+[2017.05.31-18.01.25:134][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.31-18.01.25:159][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
+[2017.05.31-18.01.25:162][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Intermediate/Shaders/WorkingDirectory/5152/).
+[2017.05.31-18.01.25:162][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/liormax/AppData/Local/Temp/UnrealShaderWorkingDir/31C4FC22440BC0B4C3726FAA9F9E1A7B/'.
+[2017.05.31-18.01.25:162][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.31-18.01.28:762][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.31-18.01.28:946][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.31-18.01.29:134][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.31-18.01.29:328][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.31-18.01.29:510][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.31-18.01.29:689][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.31-18.01.29:882][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.31-18.01.30:055][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.31-18.01.30:319][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.31-18.01.30:494][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.31-18.01.30:712][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.31-18.01.30:889][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.31-18.01.31:086][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.31-18.01.31:267][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.31-18.01.31:436][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.31-18.01.31:803][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.31-18.01.31:803][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.31-18.01.31:953][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.31-18.01.32:240][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.31-18.01.32:345][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.31-18.01.32:510][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.31-18.01.32:682][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.31-18.01.32:852][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.31-18.01.33:033][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.31-18.01.33:033][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.31-18.01.34:438][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.31-18.01.34:622][  0]LogDerivedDataCache: Loaded boot cache 0.18s 86MB C:/Users/liormax/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.05.31-18.01.34:622][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/liormax/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.05.31-18.01.34:622][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.31-18.01.34:622][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.31-18.01.34:622][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.31-18.01.34:622][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.31-18.01.34:654][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.31-18.01.34:666][  0]LogDerivedDataCache: Using Local data cache path C:/Users/liormax/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.31-18.01.34:675][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM4
+[2017.05.31-18.01.34:676][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.31-18.01.34:677][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.31-18.01.34:677][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.31-18.01.35:358][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.31-18.01.35:540][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.31-18.01.37:782][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.31-18.01.38:524][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.31-18.01.38:734][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.31-18.01.38:734][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.31-18.01.38:734][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.31-18.01.41:441][  0]LogNetVersion: MirrorGameJam , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4268874848)
+[2017.05.31-18.01.41:575][  0]LogAssetRegistry: FAssetRegistry took 0.0343 seconds to start up
+[2017.05.31-18.01.41:791][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.164279 seconds
+[2017.05.31-18.01.41:802][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.05.31-18.01.41:802][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.05.31-18.01.41:802][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.31-18.01.41:948][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.31-18.02.41:791][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.31-18.02.41:881][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.31-18.02.42:945][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.31-18.02.43:954][  0]SourceControl: Info Source control is disabled
+[2017.05.31-18.02.44:049][  0]SourceControl: Info Source control is disabled
+[2017.05.31-18.02.44:169][  0]SourceControl: Info Source control is disabled
+[2017.05.31-18.02.44:278][  0]SourceControl: Info Source control is disabled
+[2017.05.31-18.02.45:837][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.05.31-18.02.47:284][  0]LogEngine: Initializing Engine...
+[2017.05.31-18.02.47:285][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.31-18.02.47:626][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.31-18.02.47:626][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.31-18.02.47:918][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.31-18.02.47:929][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-18.02.47:949][  0]LogInit: FAudioDevice initialized.
+[2017.05.31-18.02.48:023][  0]LogDerivedDataCache: Saved boot cache 0.07s 86MB C:/Users/liormax/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.05.31-18.02.48:059][  0]LogInit: Texture streaming: Enabled
+[2017.05.31-18.02.48:267][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.31-18.02.48:764][  0]LogInit: Transaction tracking system initialized
+[2017.05.31-18.02.49:443][  0]BlueprintLog: New page: Editor Load
+[2017.05.31-18.02.52:617][  0]LocalizationService: Info Localization service is disabled
+[2017.05.31-18.02.56:242][  0]LogConsoleResponse:Display: 
+[2017.05.31-18.02.56:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/' took 0.01s
+[2017.05.31-18.02.56:898][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.31-18.02.56:899][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.31-18.03.02:539][  0]SourceControl: Info Source control is disabled
+[2017.05.31-18.03.02:540][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2017.05.31-18.03.02:541][  0]LightingResults: New page: Lighting Build
+[2017.05.31-18.03.02:680][  0]MapCheck: New page: Map Check
+[2017.05.31-18.03.02:680][  0]LightingResults: New page: Lighting Build
+[2017.05.31-18.03.03:309][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-18.03.03:311][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.05.31-18.03.03:322][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.31-18.03.03:467][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.31-18.03.03:593][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 126.342ms to complete.
+[2017.05.31-18.03.03:593][  0]LogFileHelpers: Loading map 'Template_Default' took 1.054
+[2017.05.31-18.03.08:071][  0]LogCollectionManager: Loaded 0 collections in 0.002199 seconds
+[2017.05.31-18.03.10:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Collections/' took 0.01s
+[2017.05.31-18.03.10:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Developers/liormax/Collections/' took 0.01s
+[2017.05.31-18.03.10:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Collections/' took 0.01s
+[2017.05.31-18.03.10:072][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2017.05.31-18.03.10:211][  0]LogContentBrowser: Native class hierarchy populated in 0.0383 seconds. Added 2329 classes and 491 folders.
+[2017.05.31-18.03.10:637][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.05.31-18.03.12:453][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.05.31-18.03.12:764][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2017.05.31-18.03.13:776][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.31-18.03.14:194][  0]LogSlate: Took 0.000300 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.31-18.03.14:208][  0]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.31-18.03.14:368][  0]LogSlate: Took 0.035601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.31-18.03.15:521][  0]LogRenderer: Reallocating scene render targets to support 856x372 NumSamples 1 (Frame:1).
+[2017.05.31-18.03.19:278][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.05.31-18.03.19:278][  0]LogLoad: (Engine Initialization) Total time: 123.92 seconds
+[2017.05.31-18.03.19:278][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.54 seconds
+[2017.05.31-18.03.19:278][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.31-18.03.19:278][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.31-18.03.19:619][  0]LogOcInput: OculusInput pre-init called
+[2017.05.31-18.03.19:619][  0]LogHMD: Starting GearVRController plugin
+[2017.05.31-18.03.19:791][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.31-18.03.19:999][  1]LogAssetRegistry: Asset discovery search completed in 98.4471 seconds
+[2017.05.31-18.03.20:003][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000017 seconds (found 0 objects)
+[2017.05.31-18.03.20:003][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000106 seconds (updated 0 objects)
+[2017.05.31-18.03.32:998][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.31-18.03.42:548][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.31-18.03.42:689][251]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.31-18.04.29:764][ 19]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.31-18.04.48:217][305]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.31-18.04.50:018][335]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.31-18.05.03:478][552]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (StaticMeshComponent0)
+[2017.05.31-18.05.08:020][853]Cmd: DUPLICATE
+[2017.05.31-18.05.08:020][853]Cmd: ACTOR DUPLICATE
+[2017.05.31-18.05.33:533][779]Cmd: EDIT COPY
+[2017.05.31-18.05.35:947][819]Cmd: EDIT PASTE
+[2017.05.31-18.05.42:939][912]Cmd: TRANSACTION UNDO
+[2017.05.31-18.05.42:939][912]LogEditorTransaction: Undo Move Actors
+[2017.05.31-18.05.43:225][912]LogSlate: Took 0.000818 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.31-18.05.43:612][924]Cmd: TRANSACTION UNDO
+[2017.05.31-18.05.43:612][924]LogEditorTransaction: Undo Paste
+[2017.05.31-18.05.52:241][ 55]Cmd: TRANSACTION UNDO
+[2017.05.31-18.05.52:241][ 55]LogEditorTransaction: Undo Move Actors
+[2017.05.31-18.06.01:196][306]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.31-18.06.04:122][359]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.31-18.06.05:235][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.05.31-18.06.06:079][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.31-18.06.12:628][455]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.05.31-18.06.27:498][751]LogSlate: Took 0.035762 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.31-18.06.33:470][822]LogActorFactory: Actor Factory created Cube
+[2017.05.31-18.06.35:673][850]LogActorFactory: Actor Factory created Cube
+[2017.05.31-18.06.41:536][929]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.31-18.07.17:834][315]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.31-18.07.21:079][357]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MirrorGameJam
+[2017.05.31-18.07.21:079][357]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.05.31-18.07.21:079][357]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.05.31-18.07.21:079][357]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.05.31-18.07.21:147][358]LogTemp: BranchPath = DESKTOP-GSDUFVJ/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-GSDUFVJ/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.05.31-18.07.21:971][371]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\liormax\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.05.31-18.11.06:204][354]Cmd: DELETE
+[2017.05.31-18.11.06:204][354]Cmd: ACTOR DELETE
+[2017.05.31-18.11.10:126][354]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.05.31-18.11.10:274][354]LogEditorActor: Deleted 1 Actors (4.070 secs)
+[2017.05.31-18.11.19:069][653]Cmd: DELETE
+[2017.05.31-18.11.19:069][653]Cmd: ACTOR DELETE
+[2017.05.31-18.11.19:070][653]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.05.31-18.11.19:112][653]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2017.05.31-18.11.24:931][868]Cmd: DELETE
+[2017.05.31-18.11.24:931][868]Cmd: ACTOR DELETE
+[2017.05.31-18.11.24:931][868]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.05.31-18.11.24:989][868]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2017.05.31-18.11.36:056][309]Cmd: DELETE
+[2017.05.31-18.11.36:056][309]Cmd: ACTOR DELETE
+[2017.05.31-18.11.36:057][309]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.31-18.11.36:096][309]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2017.05.31-18.11.55:603][621]LogEditorViewport: Clicking Background
+[2017.05.31-18.12.05:217][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.05.31-18.13.28:018][278]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.31-18.13.34:818][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2017.05.31-18.14.01:515][ 10]LogEditor: Attempting to add actor of class 'CameraRig_Crane' to level at -1750.00,-980.00,910.00
+[2017.05.31-18.14.06:566][ 83]LogEditor: Attempting to add actor of class 'CameraRig_Crane' to level at -1750.00,-980.00,910.00
+[2017.05.31-18.14.28:811][400]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-18.14.28:984][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-18.14.29:136][400]PIE: New page: PIE session: Untitled_1 (May 31, 2017, 10:14:29 PM)
+[2017.05.31-18.14.29:168][400]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-18.14.29:247][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.078575s)
+[2017.05.31-18.14.29:249][400]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-18.14.29:264][400]LogPlayLevel: PIE: World Init took: (0.016928s)
+[2017.05.31-18.14.29:282][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.114150s)
+[2017.05.31-18.14.29:449][400]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-18.14.29:490][400]LogInit: FAudioDevice initialized.
+[2017.05.31-18.14.29:628][400]LogLoad: Game class is 'GameModeBase'
+[2017.05.31-18.14.29:827][400]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-20.14.29
+[2017.05.31-18.14.29:867][400]LogWorld: Bringing up level for play took: 0.042457
+[2017.05.31-18.14.30:394][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.05.31-18.14.30:489][400]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 2.322
+[2017.05.31-18.14.40:165][568]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-18.14.40:232][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-18.14.40:233][568]PIE: New page: PIE session: Untitled_1 (May 31, 2017, 10:14:40 PM)
+[2017.05.31-18.14.40:233][568]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-18.14.40:238][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005230s)
+[2017.05.31-18.14.40:240][568]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-18.14.40:241][568]LogPlayLevel: PIE: World Init took: (0.002748s)
+[2017.05.31-18.14.40:242][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008736s)
+[2017.05.31-18.14.40:337][568]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-18.14.40:377][568]LogInit: FAudioDevice initialized.
+[2017.05.31-18.14.40:489][568]LogLoad: Game class is 'GameModeBase'
+[2017.05.31-18.14.40:494][568]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-20.14.40
+[2017.05.31-18.14.40:495][568]LogWorld: Bringing up level for play took: 0.003675
+[2017.05.31-18.14.40:500][568]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.332
+[2017.05.31-18.14.46:795][652]Cmd: DELETE
+[2017.05.31-18.14.46:795][652]Cmd: ACTOR DELETE
+[2017.05.31-18.14.46:797][652]LogEditorActor: Deleted Actor: CameraRig_Crane
+[2017.05.31-18.14.46:929][652]LogEditorActor: Deleted 1 Actors (0.133 secs)
+[2017.05.31-18.14.50:997][714]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-18.14.51:069][714]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-18.14.51:070][714]PIE: New page: PIE session: Untitled_1 (May 31, 2017, 10:14:51 PM)
+[2017.05.31-18.14.51:070][714]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-18.14.51:075][714]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004731s)
+[2017.05.31-18.14.51:077][714]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-18.14.51:078][714]LogPlayLevel: PIE: World Init took: (0.002622s)
+[2017.05.31-18.14.51:078][714]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008113s)
+[2017.05.31-18.14.51:177][714]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-18.14.51:216][714]LogInit: FAudioDevice initialized.
+[2017.05.31-18.14.51:269][714]LogLoad: Game class is 'GameModeBase'
+[2017.05.31-18.14.51:273][714]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-20.14.51
+[2017.05.31-18.14.51:274][714]LogWorld: Bringing up level for play took: 0.003997
+[2017.05.31-18.14.51:279][714]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.112
+[2017.05.31-18.15.07:386][941]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.31-18.15.37:259][351]LogSlate: Took 0.000354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.31-18.18.12:583][408]LogSavePackage: Save=136.02ms
+[2017.05.31-18.18.12:583][408]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Untitled_1_Auto1C26D47764973F6D7C2BB2CAED712C85E.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.05.31-18.18.12:591][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.05.31-18.18.12:671][408]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.343
+[2017.05.31-18.18.12:671][408]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.343
+[2017.05.31-18.18.12:677][408]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Movement/NewBlueprint] ([1] browsable assets)...
+[2017.05.31-18.18.12:677][408]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/NewBlueprint]
+[2017.05.31-18.18.12:693][408]LogSavePackage: Save=14.07ms
+[2017.05.31-18.18.12:693][408]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/NewBlueprint_Auto1DFE7C791479BE937E9C874A8D3AE4E1D.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/NewBlueprint_Auto1.uasset'
+[2017.05.31-18.18.12:694][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/NewBlueprint_Auto1.uasset
+[2017.05.31-18.18.12:694][408]LogFileHelpers: Auto-saving content packages took 0.019
+[2017.05.31-18.18.23:965][624]LogMetaData: Removing '/Game/Blueprints/Movement/Player_Movement.Player_Movement:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Movement/NewBlueprint.PackageMetaData'
+[2017.05.31-18.18.23:965][624]LogMetaData: Removing '/Game/Blueprints/Movement/Player_Movement.SKEL_Player_Movement_C' ref from Metadata '/Game/Blueprints/Movement/NewBlueprint.PackageMetaData'
+[2017.05.31-18.18.23:965][624]LogMetaData: Removing '/Game/Blueprints/Movement/Player_Movement.Player_Movement_C' ref from Metadata '/Game/Blueprints/Movement/NewBlueprint.PackageMetaData'
+[2017.05.31-18.18.23:965][624]LogMetaData: Removing '/Game/Blueprints/Movement/Player_Movement.Player_Movement:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Movement/NewBlueprint.PackageMetaData'
+[2017.05.31-18.18.23:965][624]LogMetaData: Removing '/Game/Blueprints/Movement/Player_Movement.Player_Movement:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Movement/NewBlueprint.PackageMetaData'
+[2017.05.31-18.18.23:965][624]LogMetaData: Removing '/Game/Blueprints/Movement/Player_Movement.Player_Movement:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Movement/NewBlueprint.PackageMetaData'
+[2017.05.31-18.18.24:077][624]LogSavePackage: Save=14.86ms
+[2017.05.31-18.18.24:077][624]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement443283D04904D53AFE15B9812904AF3A.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset'
+[2017.05.31-18.18.24:080][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset
+[2017.05.31-18.18.26:425][654]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.31-18.18.27:310][654]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.05.31-18.18.33:750][695]LogRenderer: Reallocating scene render targets to support 856x588 NumSamples 1 (Frame:43).
+[2017.05.31-18.18.56:340][936]LogSlate: Took 0.033565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.31-18.28.13:249][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.106
+[2017.05.31-18.28.13:250][597]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Movement/Player_Movement] ([1] browsable assets)...
+[2017.05.31-18.28.13:267][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/Player_Movement]
+[2017.05.31-18.28.13:292][597]LogSavePackage: Save=17.46ms
+[2017.05.31-18.28.13:292][597]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement_Auto2CD23273747C3B52F1B1227AF097853FB.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto2.uasset'
+[2017.05.31-18.28.13:294][597]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto2.uasset
+[2017.05.31-18.28.13:294][597]LogFileHelpers: Auto-saving content packages took 0.044
+[2017.05.31-18.30.39:227][150]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
+[2017.05.31-18.30.39:227][150]LogSynthBenchmark:Display: ===============
+[2017.05.31-18.30.39:227][150]LogSynthBenchmark:Display: Main Processor:
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:          ... 0.032182 s/Run 'RayIntersect'
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:          ... 0.031530 s/Run 'Fractal'
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display: 
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 6
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   NumberOfCores (physical): 2
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   NumberOfCores (logical): 4
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   CPU Perf Index 0: 79.6 (weight 1.00)
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   CPU Perf Index 1: 90.7 (weight 1.50)
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:  
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display: Graphics:
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   Adapter Name: 'Intel(R) HD Graphics 3000'
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   Vendor Id: 0x8086
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   Device Id: 0x126
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   Device Revision: 0x9
+[2017.05.31-18.30.39:291][150]LogSynthBenchmark:Display:   GPU Memory: 128/0/1632 MB
+[2017.05.31-18.30.39:541][150]LogSynthBenchmark:Display:   GPU first test: 0.06s
+[2017.05.31-18.30.39:541][150]LogSynthBenchmark:Display:          ... 0.233 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2017.05.31-18.30.39:541][150]LogSynthBenchmark:Display:          ... 0.262 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2017.05.31-18.30.39:541][150]LogSynthBenchmark:Display:          ... 0.236 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2017.05.31-18.30.39:541][150]LogSynthBenchmark:Display:          ... 1.216 s/GigaPix, Confidence=100% 'FillOnly' (likely to be very inaccurate)
+[2017.05.31-18.30.39:541][150]LogSynthBenchmark:Display:          ... 0.030 s/GigaPix, Confidence=89% 'Bandwidth' (likely to be very inaccurate)
+[2017.05.31-18.30.39:541][150]LogSynthBenchmark:Display:          ... 0.158 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be very inaccurate)
+[2017.05.31-18.30.39:541][150]LogSynthBenchmark:Display:          ... 1.119 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be very inaccurate)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU second test: 0.53s
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.276 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.302 s/GigaPix, Confidence=89% 'TexHeavy' (likely to be inaccurate)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.247 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 1.720 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.028 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.160 s/GigaVert, Confidence=100% 'VertThroughPut1' (likely to be inaccurate)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 1.222 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be inaccurate)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU Final Results:
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.276 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.302 s/GigaPix, Confidence=89% 'TexHeavy'
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.247 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 1.720 s/GigaPix, Confidence=100% 'FillOnly'
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.028 s/GigaPix, Confidence=100% 'Bandwidth'
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 0.160 s/GigaVert, Confidence=100% 'VertThroughPut1'
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... 1.222 s/GigaVert, Confidence=100% 'VertThroughPut2'
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display: 
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU Perf Index 0: 6.0 (weight 1.00)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU Perf Index 1: 4.1 (weight 0.10)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU Perf Index 2: 6.4 (weight 0.10)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU Perf Index 3: 6.8 (weight 3.00)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU Perf Index 4: 2.6 (weight 1.00)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU Perf Index 5: 10.4 (weight 0.00)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPU Perf Index 6: 69.2 (weight 0.00)
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   CPUIndex: 86.3
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:   GPUIndex: 5.8
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display: 
+[2017.05.31-18.30.40:195][150]LogSynthBenchmark:Display:          ... Total Time: 0.968027 sec
+[2017.05.31-18.30.40:800][151]LogRenderer: Reallocating scene render targets to support 856x588 NumSamples 1 (Frame:10318).
+[2017.05.31-18.30.40:871][151]LogContentStreaming: Texture pool size now 400 MB
+[2017.05.31-18.33.38:360][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.05.31-18.38.16:745][992]LogSavePackage: Save=32.88ms
+[2017.05.31-18.38.16:746][992]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Untitled_1_Auto3B8D059724C4A92F19D7B0FA1D0DCCA43.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2017.05.31-18.38.16:747][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2017.05.31-18.38.16:749][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.076
+[2017.05.31-18.38.16:749][992]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.076
+[2017.05.31-18.38.16:757][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Movement/Player_Movement] ([1] browsable assets)...
+[2017.05.31-18.38.16:757][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/Player_Movement]
+[2017.05.31-18.38.16:781][992]LogSavePackage: Save=14.89ms
+[2017.05.31-18.38.16:781][992]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement_Auto37C736C6F41EC9AE91020648A9B981AA9.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto3.uasset'
+[2017.05.31-18.38.16:782][992]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto3.uasset
+[2017.05.31-18.38.16:782][992]LogFileHelpers: Auto-saving content packages took 0.027
+[2017.05.31-18.45.57:708][358]BlueprintLog: New page: Compile Player_Movement
+[2017.05.31-18.48.07:533][401]LogEditorTransaction: Undo Create Pin Link
+[2017.05.31-18.48.08:239][403]LogEditorTransaction: Undo Create Pin Link
+[2017.05.31-18.48.40:000][168]BlueprintLog: New page: Compile Player_Movement
+[2017.05.31-18.48.41:996][194]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-18.48.42:062][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-18.48.42:062][194]PIE: New page: PIE session: Untitled_1 (May 31, 2017, 10:48:42 PM)
+[2017.05.31-18.48.42:062][194]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-18.48.42:068][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005524s)
+[2017.05.31-18.48.42:070][194]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-18.48.42:070][194]LogPlayLevel: PIE: World Init took: (0.002368s)
+[2017.05.31-18.48.42:071][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008538s)
+[2017.05.31-18.48.42:219][194]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-18.48.42:264][194]LogInit: FAudioDevice initialized.
+[2017.05.31-18.48.42:326][194]LogLoad: Game class is 'GameModeBase'
+[2017.05.31-18.48.42:333][194]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-20.48.42
+[2017.05.31-18.48.42:334][194]LogWorld: Bringing up level for play took: 0.004850
+[2017.05.31-18.48.42:339][194]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.172
+[2017.05.31-18.49.47:316][212]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.085
+[2017.05.31-18.49.47:321][212]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Movement/Player_Movement] ([1] browsable assets)...
+[2017.05.31-18.49.47:321][212]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/Player_Movement]
+[2017.05.31-18.49.47:418][212]LogSavePackage: Save=89.88ms
+[2017.05.31-18.49.47:418][212]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement_Auto4C197FF8F487C9DCEB44A05BBD84619C5.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto4.uasset'
+[2017.05.31-18.49.47:425][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto4.uasset
+[2017.05.31-18.49.47:425][212]LogFileHelpers: Auto-saving content packages took 0.108
+[2017.05.31-18.52.23:589][177]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-18.52.23:671][177]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.31-18.52.23:671][177]LogPlayLevel: [PlayLevel] Compiling Player_Movement before play...
+[2017.05.31-18.52.24:267][177]LogPlayLevel: PlayLevel: Blueprint regeneration took 595 ms (1 blueprints)
+[2017.05.31-18.52.24:268][177]PIE: New page: PIE session: Untitled_1 (May 31, 2017, 10:52:24 PM)
+[2017.05.31-18.52.24:268][177]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-18.52.24:273][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004580s)
+[2017.05.31-18.52.24:276][177]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-18.52.24:276][177]LogPlayLevel: PIE: World Init took: (0.003614s)
+[2017.05.31-18.52.24:277][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.008870s)
+[2017.05.31-18.52.24:423][177]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-18.52.24:467][177]LogInit: FAudioDevice initialized.
+[2017.05.31-18.52.24:534][177]LogLoad: Game class is 'GameModeBase'
+[2017.05.31-18.52.24:541][177]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-20.52.24
+[2017.05.31-18.52.24:542][177]LogWorld: Bringing up level for play took: 0.004726
+[2017.05.31-18.52.24:547][177]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.38
+[2017.05.31-18.52.32:537][361]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-18.52.32:602][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-18.52.32:603][361]PIE: New page: PIE session: Untitled_1 (May 31, 2017, 10:52:32 PM)
+[2017.05.31-18.52.32:603][361]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-18.52.32:611][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007175s)
+[2017.05.31-18.52.32:613][361]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-18.52.32:613][361]LogPlayLevel: PIE: World Init took: (0.002632s)
+[2017.05.31-18.52.32:614][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.010788s)
+[2017.05.31-18.52.32:759][361]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-18.52.32:800][361]LogInit: FAudioDevice initialized.
+[2017.05.31-18.52.32:864][361]LogLoad: Game class is 'GameModeBase'
+[2017.05.31-18.52.32:871][361]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-20.52.32
+[2017.05.31-18.52.32:872][361]LogWorld: Bringing up level for play took: 0.004400
+[2017.05.31-18.52.32:898][361]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.731
+[2017.05.31-18.53.20:886][415]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.31-19.00.25:444][388]LogEditorTransaction: Undo Remove Components
+[2017.05.31-19.00.45:474][684]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.31-19.00.54:737][808]LogEditorTransaction: Undo Modify Component(s)
+[2017.05.31-19.01.25:425][999]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.049
+[2017.05.31-19.01.25:427][999]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Movement/Player_Movement] ([1] browsable assets)...
+[2017.05.31-19.01.25:427][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/Player_Movement]
+[2017.05.31-19.01.25:490][999]LogSavePackage: Save=60.68ms
+[2017.05.31-19.01.25:490][999]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement_Auto552A1FFD84CA61D0EFCFCB6B4D4579B09.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto5.uasset'
+[2017.05.31-19.01.25:492][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto5.uasset
+[2017.05.31-19.01.25:492][999]LogFileHelpers: Auto-saving content packages took 0.066
+[2017.05.31-19.01.36:346][199]LogEditorTransaction: Undo Add Component
+[2017.05.31-19.03.29:389][413]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-19.03.29:412][413]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.31-19.03.29:412][413]LogPlayLevel: [PlayLevel] Compiling Player_Movement before play...
+[2017.05.31-19.03.29:853][413]LogPlayLevel: PlayLevel: Blueprint regeneration took 440 ms (1 blueprints)
+[2017.05.31-19.03.29:853][413]PIE: New page: PIE session: Untitled_1 (May 31, 2017, 11:03:29 PM)
+[2017.05.31-19.03.29:853][413]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-19.03.29:855][413]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001363s)
+[2017.05.31-19.03.29:855][413]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-19.03.29:855][413]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.05.31-19.03.29:856][413]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002480s)
+[2017.05.31-19.03.29:902][413]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-19.03.29:917][413]LogInit: FAudioDevice initialized.
+[2017.05.31-19.03.29:952][413]LogLoad: Game class is 'GameModeBase'
+[2017.05.31-19.03.29:954][413]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-21.03.29
+[2017.05.31-19.03.29:954][413]LogWorld: Bringing up level for play took: 0.001431
+[2017.05.31-19.03.29:956][413]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.211
+[2017.05.31-19.11.30:340][101]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.045
+[2017.05.31-19.11.30:342][101]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Movement/Player_Movement] ([1] browsable assets)...
+[2017.05.31-19.11.30:415][101]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Movement/Player_Movement.Player_Movement]
+[2017.05.31-19.11.30:415][101]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/Player_Movement]
+[2017.05.31-19.11.30:496][101]LogSavePackage: Save=79.29ms
+[2017.05.31-19.11.30:497][101]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement_Auto6ABBE576F442341DF98F6D4A0D0FC4641.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto6.uasset'
+[2017.05.31-19.11.30:498][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto6.uasset
+[2017.05.31-19.11.30:498][101]LogFileHelpers: Auto-saving content packages took 0.157
+[2017.05.31-19.21.30:737][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.079
+[2017.05.31-19.21.30:740][ 99]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Movement/Player_Movement] ([1] browsable assets)...
+[2017.05.31-19.21.30:740][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/Player_Movement]
+[2017.05.31-19.21.30:808][ 99]LogSavePackage: Save=46.75ms
+[2017.05.31-19.21.30:808][ 99]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement_Auto7CBA110C34C1D01D2B6F59BB51A8388C3.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto7.uasset'
+[2017.05.31-19.21.30:813][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto7.uasset
+[2017.05.31-19.21.30:813][ 99]LogFileHelpers: Auto-saving content packages took 0.075
+[2017.05.31-19.31.52:630][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.086
+[2017.05.31-19.31.52:636][430]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Movement/Player_Movement] ([1] browsable assets)...
+[2017.05.31-19.31.52:636][430]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/Player_Movement]
+[2017.05.31-19.31.52:755][430]LogSavePackage: Save=114.84ms
+[2017.05.31-19.31.52:755][430]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement_Auto839C435394779E4A8ACFD5EB00F8390BA.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto8.uasset'
+[2017.05.31-19.31.52:758][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto8.uasset
+[2017.05.31-19.31.52:758][430]LogFileHelpers: Auto-saving content packages took 0.127
+[2017.05.31-19.34.42:418][715]BlueprintLog: New page: Compile Player_Movement
+[2017.05.31-19.34.46:757][824]LogSavePackage: Save=64.48ms
+[2017.05.31-19.34.46:757][824]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_MovementAB36E1AE4D6382AAAE988C922ED27937.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset'
+[2017.05.31-19.34.46:760][824]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset
+[2017.05.31-19.37.26:562][891]LogSavePackage: Save=62.80ms
+[2017.05.31-19.37.26:562][891]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement3913E8214F88550D3C30998D79904737.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset'
+[2017.05.31-19.37.26:566][891]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset
+[2017.05.31-19.38.04:800][229]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.31-19.38.17:728][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Movement/GameTest" FILE="../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/GameTest.uasset" SILENT=true
+[2017.05.31-19.38.17:805][510]LogSavePackage: Save=70.45ms
+[2017.05.31-19.38.17:805][510]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/GameTest77EF650B4843431BBBEAA7B6EF05022C.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/GameTest.uasset'
+[2017.05.31-19.38.17:814][510]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/GameTest.uasset
+[2017.05.31-19.38.23:598][752]Cmd: DELETE
+[2017.05.31-19.38.23:598][752]Cmd: ACTOR DELETE
+[2017.05.31-19.38.23:600][752]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.31-19.38.23:731][752]LogEditorActor: Deleted 1 Actors (0.133 secs)
+[2017.05.31-19.39.03:824][251]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.31-19.39.05:697][305]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.31-19.39.10:511][382]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.31-19.42.33:858][654]LogSavePackage: Save=44.19ms
+[2017.05.31-19.42.33:858][654]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Untitled_1_Auto91F67F75A4234C568879F51AB9A8E0CBC.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto9.umap'
+[2017.05.31-19.42.33:875][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto9.umap
+[2017.05.31-19.42.33:877][654]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.119
+[2017.05.31-19.42.33:878][654]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.119
+[2017.05.31-19.42.33:881][654]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Movement/Player_Movement] ([1] browsable assets)...
+[2017.05.31-19.42.33:911][654]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Movement/Player_Movement.Player_Movement]
+[2017.05.31-19.42.33:911][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Movement/Player_Movement]
+[2017.05.31-19.42.34:145][654]LogSavePackage: Save=66.01ms
+[2017.05.31-19.42.34:145][654]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement_Auto96E2E7CB14B8EBEB3881D5DB6DE45B2A4.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto9.uasset'
+[2017.05.31-19.42.34:165][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Movement/Player_Movement_Auto9.uasset
+[2017.05.31-19.42.34:165][654]LogFileHelpers: Auto-saving content packages took 0.286
+[2017.05.31-20.00.31:538][819]BlueprintLog: New page: Compile Player_Movement
+[2017.05.31-20.00.33:645][835]LogSavePackage: Save=81.03ms
+[2017.05.31-20.00.33:646][835]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement7177CBC5477EA36C8ABDEF8CEE83CA6D.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset'
+[2017.05.31-20.00.33:653][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset
+[2017.05.31-20.00.47:448][ 44]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-20.00.47:563][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-20.00.47:564][ 44]PIE: New page: PIE session: Untitled_1 (Jun 1, 2017, 12:00:47 AM)
+[2017.05.31-20.00.47:564][ 44]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-20.00.47:573][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008330s)
+[2017.05.31-20.00.47:576][ 44]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-20.00.47:577][ 44]LogPlayLevel: PIE: World Init took: (0.003997s)
+[2017.05.31-20.00.47:577][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.013238s)
+[2017.05.31-20.00.47:822][ 44]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-20.00.47:909][ 44]LogInit: FAudioDevice initialized.
+[2017.05.31-20.00.47:991][ 44]LogLoad: Game class is 'GameTest_C'
+[2017.05.31-20.00.47:999][ 44]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-22.00.47
+[2017.05.31-20.00.48:000][ 44]LogWorld: Bringing up level for play took: 0.005259
+[2017.05.31-20.00.48:105][ 44]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.062
+[2017.05.31-20.01.03:792][743]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.31-20.01.04:296][750]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.31-20.01.26:967][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.05.31-20.01.30:377][305]LogEditorActor: Deleted Actor: PlayerStart
+[2017.05.31-20.01.30:445][305]LogEditorActor: Deleted 1 Actors (0.069 secs)
+[2017.05.31-20.02.12:379][551]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.31-20.02.13:802][552]LogSavePackage: Save=102.53ms
+[2017.05.31-20.02.13:803][552]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Untitled_1_Auto03C88D2BC494528D0F3364F872F9CE0C9.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto0.umap'
+[2017.05.31-20.02.13:809][552]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto0.umap
+[2017.05.31-20.02.13:815][552]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.249
+[2017.05.31-20.02.13:815][552]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.249
+[2017.05.31-20.02.19:226][674]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.31-20.02.33:878][240]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MirrorGameJam
+[2017.05.31-20.02.33:879][240]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.05.31-20.02.33:879][240]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.05.31-20.02.33:879][240]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.05.31-20.02.34:001][242]LogTemp: BranchPath = DESKTOP-GSDUFVJ/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-GSDUFVJ/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.05.31-20.02.35:207][261]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\liormax\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.05.31-20.02.39:122][364]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.31-20.04.27:139][361]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-20.04.27:162][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-20.04.27:163][361]PIE: New page: PIE session: Untitled_1 (Jun 1, 2017, 12:04:27 AM)
+[2017.05.31-20.04.27:163][361]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-20.04.27:164][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001569s)
+[2017.05.31-20.04.27:165][361]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-20.04.27:166][361]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2017.05.31-20.04.27:166][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003272s)
+[2017.05.31-20.04.27:214][361]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-20.04.27:229][361]LogInit: FAudioDevice initialized.
+[2017.05.31-20.04.27:268][361]LogLoad: Game class is 'GameTest_C'
+[2017.05.31-20.04.27:270][361]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-22.04.27
+[2017.05.31-20.04.27:271][361]LogWorld: Bringing up level for play took: 0.002173
+[2017.05.31-20.04.27:275][361]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.107
+[2017.05.31-20.05.09:257][547]BlueprintLog: New page: Compile Player_Movement
+[2017.05.31-20.05.10:656][561]LogSavePackage: Save=72.89ms
+[2017.05.31-20.05.10:656][561]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player_Movement375271904266CA1452D06387A1ED58AC.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset'
+[2017.05.31-20.05.10:660][561]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player_Movement.uasset
+[2017.05.31-20.05.17:308][686]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-20.05.17:332][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-20.05.17:332][686]PIE: New page: PIE session: Untitled_1 (Jun 1, 2017, 12:05:17 AM)
+[2017.05.31-20.05.17:332][686]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-20.05.17:334][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001715s)
+[2017.05.31-20.05.17:335][686]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-20.05.17:335][686]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2017.05.31-20.05.17:335][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003162s)
+[2017.05.31-20.05.17:384][686]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-20.05.17:397][686]LogInit: FAudioDevice initialized.
+[2017.05.31-20.05.17:434][686]LogLoad: Game class is 'GameTest_C'
+[2017.05.31-20.05.17:436][686]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-22.05.17
+[2017.05.31-20.05.17:437][686]LogWorld: Bringing up level for play took: 0.001840
+[2017.05.31-20.05.17:440][686]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.728
+[2017.05.31-20.05.49:826][683]LogMetaData: Removing '/Game/Blueprints/Movement/Player.Player:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Movement/Player_Movement.PackageMetaData'
+[2017.05.31-20.05.49:826][683]LogMetaData: Removing '/Game/Blueprints/Movement/Player.SKEL_Player_C' ref from Metadata '/Game/Blueprints/Movement/Player_Movement.PackageMetaData'
+[2017.05.31-20.05.49:826][683]LogMetaData: Removing '/Game/Blueprints/Movement/Player.Player_C' ref from Metadata '/Game/Blueprints/Movement/Player_Movement.PackageMetaData'
+[2017.05.31-20.05.49:826][683]LogMetaData: Removing '/Game/Blueprints/Movement/Player.Player:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Movement/Player_Movement.PackageMetaData'
+[2017.05.31-20.05.49:827][683]LogMetaData: Removing '/Game/Blueprints/Movement/Player.Player:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Movement/Player_Movement.PackageMetaData'
+[2017.05.31-20.05.49:827][683]LogMetaData: Removing '/Game/Blueprints/Movement/Player.Player:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Movement/Player_Movement.PackageMetaData'
+[2017.05.31-20.05.49:827][683]LogMetaData: Removing '/Game/Blueprints/Movement/Player.Player:Movement.K2Node_FunctionEntry_16' ref from Metadata '/Game/Blueprints/Movement/Player_Movement.PackageMetaData'
+[2017.05.31-20.05.50:020][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Movement/Player" FILE="../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset" SILENT=true
+[2017.05.31-20.05.50:267][683]LogSavePackage: Save=240.29ms
+[2017.05.31-20.05.50:267][683]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player20E0FD2B4BCB0DF9FD2848A23166408E.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset'
+[2017.05.31-20.05.50:277][683]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset
+[2017.05.31-20.05.51:306][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Movement/GameTest" FILE="../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/GameTest.uasset" SILENT=true
+[2017.05.31-20.05.51:412][683]LogSavePackage: Save=69.85ms
+[2017.05.31-20.05.51:412][683]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/GameTest67E29AFF4FCC5E786F95589CE1FCB61F.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/GameTest.uasset'
+[2017.05.31-20.05.51:423][683]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/GameTest.uasset
+[2017.05.31-20.06.51:089][676]BlueprintLog: New page: Compile Player
+[2017.05.31-20.06.52:284][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Movement/Player" FILE="../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset" SILENT=true
+[2017.05.31-20.06.52:367][693]LogSavePackage: Save=70.12ms
+[2017.05.31-20.06.52:367][693]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player23A41BF743CDB09C144B8EA26CEAF81A.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset'
+[2017.05.31-20.06.52:371][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset
+[2017.05.31-20.06.53:791][729]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-20.06.53:836][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-20.06.53:836][729]PIE: New page: PIE session: Untitled_1 (Jun 1, 2017, 12:06:53 AM)
+[2017.05.31-20.06.53:836][729]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-20.06.53:838][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001932s)
+[2017.05.31-20.06.53:839][729]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-20.06.53:839][729]LogPlayLevel: PIE: World Init took: (0.001450s)
+[2017.05.31-20.06.53:840][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003743s)
+[2017.05.31-20.06.53:895][729]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-20.06.53:910][729]LogInit: FAudioDevice initialized.
+[2017.05.31-20.06.53:953][729]LogLoad: Game class is 'GameTest_C'
+[2017.05.31-20.06.53:955][729]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-22.06.53
+[2017.05.31-20.06.53:956][729]LogWorld: Bringing up level for play took: 0.002074
+[2017.05.31-20.06.53:959][729]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.208
+[2017.05.31-20.07.02:680][863]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Movement/Player" FILE="../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset" SILENT=true
+[2017.05.31-20.07.02:747][863]LogSavePackage: Save=63.07ms
+[2017.05.31-20.07.02:747][863]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player8FFCDA4F49C920FDB85CCDB9B33B5A6A.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset'
+[2017.05.31-20.07.02:750][863]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset
+[2017.05.31-20.07.04:888][976]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-20.07.04:934][976]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-20.07.04:934][976]PIE: New page: PIE session: Untitled_1 (Jun 1, 2017, 12:07:04 AM)
+[2017.05.31-20.07.04:934][976]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-20.07.04:936][976]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001588s)
+[2017.05.31-20.07.04:937][976]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-20.07.04:937][976]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2017.05.31-20.07.04:937][976]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002999s)
+[2017.05.31-20.07.04:985][976]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-20.07.04:998][976]LogInit: FAudioDevice initialized.
+[2017.05.31-20.07.05:034][976]LogLoad: Game class is 'GameTest_C'
+[2017.05.31-20.07.05:036][976]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-22.07.05
+[2017.05.31-20.07.05:037][976]LogWorld: Bringing up level for play took: 0.001536
+[2017.05.31-20.07.05:040][976]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.873
+[2017.05.31-20.07.50:153][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Movement/Player" FILE="../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset" SILENT=true
+[2017.05.31-20.07.50:227][790]LogSavePackage: Save=69.71ms
+[2017.05.31-20.07.50:227][790]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/PlayerF65ADFBB4B306931F79D45A0F4D91904.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset'
+[2017.05.31-20.07.50:231][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset
+[2017.05.31-20.07.54:543][878]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-20.07.54:606][878]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.31-20.07.54:606][878]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2017.05.31-20.07.55:223][878]LogPlayLevel: PlayLevel: Blueprint regeneration took 617 ms (1 blueprints)
+[2017.05.31-20.07.55:223][878]PIE: New page: PIE session: Untitled_1 (Jun 1, 2017, 12:07:55 AM)
+[2017.05.31-20.07.55:224][878]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-20.07.55:228][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004525s)
+[2017.05.31-20.07.55:230][878]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-20.07.55:231][878]LogPlayLevel: PIE: World Init took: (0.002354s)
+[2017.05.31-20.07.55:231][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.007492s)
+[2017.05.31-20.07.55:372][878]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-20.07.55:414][878]LogInit: FAudioDevice initialized.
+[2017.05.31-20.07.55:469][878]LogLoad: Game class is 'GameTest_C'
+[2017.05.31-20.07.55:474][878]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-22.07.55
+[2017.05.31-20.07.55:475][878]LogWorld: Bringing up level for play took: 0.003446
+[2017.05.31-20.07.55:483][878]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.316
+[2017.05.31-20.08.12:393][371]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.05.31-20.08.12:497][372]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MirrorGameJam
+[2017.05.31-20.08.12:497][372]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.05.31-20.08.12:497][372]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.05.31-20.08.12:497][372]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.05.31-20.08.12:527][373]LogTemp: BranchPath = DESKTOP-GSDUFVJ/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-GSDUFVJ/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.05.31-20.08.12:850][374]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\liormax\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.05.31-20.10.23:419][567]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-20.10.23:438][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-20.10.23:438][567]PIE: New page: PIE session: Untitled_1 (Jun 1, 2017, 12:10:23 AM)
+[2017.05.31-20.10.23:438][567]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-20.10.23:440][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001835s)
+[2017.05.31-20.10.23:441][567]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-20.10.23:441][567]LogPlayLevel: PIE: World Init took: (0.000960s)
+[2017.05.31-20.10.23:441][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003040s)
+[2017.05.31-20.10.23:489][567]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-20.10.23:503][567]LogInit: FAudioDevice initialized.
+[2017.05.31-20.10.23:537][567]LogLoad: Game class is 'GameTest_C'
+[2017.05.31-20.10.23:539][567]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-22.10.23
+[2017.05.31-20.10.23:539][567]LogWorld: Bringing up level for play took: 0.001383
+[2017.05.31-20.10.23:541][567]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.626
+[2017.05.31-20.12.12:657][477]LogTemp: Repeting last play command: Selected Viewport
+[2017.05.31-20.12.12:677][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.31-20.12.12:677][477]PIE: New page: PIE session: Untitled_1 (Jun 1, 2017, 12:12:12 AM)
+[2017.05.31-20.12.12:677][477]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.05.31-20.12.12:678][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001510s)
+[2017.05.31-20.12.12:679][477]LogAIModule: Creating AISystem for world Untitled_1
+[2017.05.31-20.12.12:680][477]LogPlayLevel: PIE: World Init took: (0.001672s)
+[2017.05.31-20.12.12:680][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003476s)
+[2017.05.31-20.12.12:719][477]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.31-20.12.12:731][477]LogInit: FAudioDevice initialized.
+[2017.05.31-20.12.12:767][477]LogLoad: Game class is 'GameTest_C'
+[2017.05.31-20.12.12:769][477]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.05.31-22.12.12
+[2017.05.31-20.12.12:769][477]LogWorld: Bringing up level for play took: 0.001304
+[2017.05.31-20.12.12:772][477]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.605
+[2017.05.31-20.13.10:709][  7]LogSavePackage: Save=48.42ms
+[2017.05.31-20.13.10:709][  7]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Untitled_1_Auto1BD6FA8824190565AA3604FBA45A9AEB5.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.05.31-20.13.10:711][  7]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.05.31-20.13.10:714][  7]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.101
+[2017.05.31-20.13.10:714][  7]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.101
+[2017.05.31-20.39.41:986][858]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.081
+[2017.05.31-20.39.42:020][858]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Experiments/Teleport] ([1] browsable assets)...
+[2017.05.31-20.39.42:088][858]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Experiments/Teleport.Teleport]
+[2017.05.31-20.39.42:088][858]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Experiments/Teleport]
+[2017.05.31-20.39.42:177][858]LogSavePackage: Save=83.31ms
+[2017.05.31-20.39.42:177][858]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Teleport_Auto2B478C6B9474FA55071CCF6AEFA0D1D25.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Experiments/Teleport_Auto2.uasset'
+[2017.05.31-20.39.42:212][858]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Experiments/Teleport_Auto2.uasset
+[2017.05.31-20.39.42:212][858]LogFileHelpers: Auto-saving content packages took 0.224
+[2017.05.31-20.41.49:004][239]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.31-20.41.49:004][239]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.31-20.42.59:381][830]BlueprintLog: New page: Compile Teleport
+[2017.05.31-20.46.52:485][233]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.05.31-20.49.21:519][850]BlueprintLog: New page: Compile Teleport
+[2017.05.31-20.49.30:493][ 36]LogSavePackage: Save=57.27ms
+[2017.05.31-20.49.30:493][ 36]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/TeleportD37094C447ADE1B9087597B7ECDF5C5A.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Experiments/Teleport.uasset'
+[2017.05.31-20.49.30:496][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Experiments/Teleport.uasset
+[2017.05.31-20.49.56:769][614]LogSlate: Took 0.086863 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.31-20.50.26:722][213]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.31-20.50.26:722][213]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.31-20.50.38:178][481]BlueprintLog: New page: Compile Player
+[2017.05.31-20.50.41:124][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Movement/Player" FILE="../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset" SILENT=true
+[2017.05.31-20.50.41:525][491]LogSavePackage: Save=246.58ms
+[2017.05.31-20.50.41:525][491]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Player1F6946E2465E8AD33D79E2BA8DE8AA87.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset'
+[2017.05.31-20.50.41:538][491]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset
+[2017.05.31-20.52.39:324][946]LogSavePackage: Save=142.78ms
+[2017.05.31-20.52.39:324][946]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Untitled_1_Auto3CF41C98543AB9CADFF6C878E91665675.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto3.umap'
+[2017.05.31-20.52.39:331][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Temp/Untitled_1_Auto3.umap
+[2017.05.31-20.52.39:335][946]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.302
+[2017.05.31-20.52.39:335][946]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.302
+[2017.05.31-20.52.39:341][946]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Experiments/Teleport] ([1] browsable assets)...
+[2017.05.31-20.52.39:393][946]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Experiments/Teleport.Teleport]
+[2017.05.31-20.52.39:394][946]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Experiments/Teleport]
+[2017.05.31-20.52.39:531][946]LogSavePackage: Save=117.81ms
+[2017.05.31-20.52.39:531][946]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Teleport_Auto3784AF6D84DC509B25BA37EBF7B60D12E.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Experiments/Teleport_Auto3.uasset'
+[2017.05.31-20.52.39:535][946]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Autosaves/Game/Blueprints/Experiments/Teleport_Auto3.uasset
+[2017.05.31-20.52.39:535][946]LogFileHelpers: Auto-saving content packages took 0.196
+[2017.05.31-20.54.46:508][ 41]LogSavePackage: Save=55.46ms
+[2017.05.31-20.54.46:508][ 41]LogSavePackage: Moving '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Saved/Teleport8CE7E43945BC1404552372A416C258DC.tmp' to '../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Experiments/Teleport.uasset'
+[2017.05.31-20.54.46:511][ 41]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Experiments/Teleport.uasset
+[2017.05.31-20.56.54:612][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ComponentDelegateBinding_6' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputKeyDelegateBinding_1' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_E_K2Node_InputKeyEvent_1' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__BoxCollider_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__BoxCollider_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_Teleport' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_E_K2Node_InputKeyEvent_1' or package '/Game/Blueprints/Experiments/Teleport'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__BoxCollider_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Game/Blueprints/Experiments/Teleport'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__BoxCollider_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' or package '/Game/Blueprints/Experiments/Teleport'.
+[2017.05.31-20.56.54:613][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_ComponentBoundEvent_1' or package '/Game/Blueprints/Experiments/Teleport'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_ComponentBoundEvent_0' or package '/Game/Blueprints/Experiments/Teleport'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BoxCollider' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Teleport_Ref' or package '/Game/Blueprints/Movement/Player'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_0' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Teleport_C_176' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TRASHCLASS_Teleport_146' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:614][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BoxCollider_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:615][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:615][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Teleport_C_175' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:615][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_Teleport' or package '/Game/Blueprints/Experiments/Teleport'.
+[2017.05.31-20.56.54:615][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Teleport_C_1' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:615][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:615][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.05.31-20.56.54:616][499]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Teleport_C_0' or package '/Engine/Transient'.
+[2017.05.31-20.57.05:194][878]LogLinker:Warning: Can't find file '/Game/Blueprints/Experiments/Teleport'
+[2017.05.31-20.57.05:195][878]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Experiments/Teleport' while loading ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset.
+[2017.05.31-20.57.05:195][878]LoadErrors:Error: Error /Game/Blueprints/Movement/Player : Can't find file for asset. /Game/Blueprints/Experiments/Teleport
+[2017.05.31-20.57.05:483][878]LogLinker:Warning: Can't find file '/Game/Blueprints/Experiments/Teleport'
+[2017.05.31-20.57.05:484][878]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/Experiments/Teleport' while loading ../../../../../../Users/liormax/Documents/Unreal Projects/MirrorGameJam/Content/Blueprints/Movement/Player.uasset.
+[2017.05.31-20.57.47:452][674]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2017.05.31-20.58.09:534][674]LogCrashTracker: 
+
+
+[2017.05.31-20.58.09:534][674]LogCrashTracker: 
+
+
+[2017.05.31-20.58.09:534][674]LogWindows:Error: === Critical error: ===
+[2017.05.31-20.58.09:534][674]LogWindows:Error: 
+[2017.05.31-20.58.09:534][674]LogWindows:Error: Assertion failed: Class != NULL [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\PropertyEditor\Private\UserInterface\PropertyEditor\SPropertyEditorAsset.cpp] [Line: 989] 
+[2017.05.31-20.58.09:534][674]LogWindows:Error: Property (ObjectProperty /Game/Blueprints/Movement/Player.Player_C:Teleport_Ref) is not an object or interface class
+[2017.05.31-20.58.09:534][674]LogWindows:Error: 
+[2017.05.31-20.58.09:534][674]LogWindows:Error: 
+[2017.05.31-20.58.09:534][674]LogWindows:Error: KERNELBASE.dll!0x000000004ABD7788
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-Core.dll!0x00000000251D00AE
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000024FE30DF
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-Core.dll!0x0000000024F72CC9
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C8AEB6E
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C87EE85
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C54DBD6
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C6259AF
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C689CE0
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C685BBC
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C6272FF
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C713B28
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C6EC617
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C6EC433
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C7BDDE9
+[2017.05.31-20.58.09:534][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C624614
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C6C1700
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C7FF566
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C77EB54
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C77FE74
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C7D446B
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C7D2A6D
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C7DAAB8
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C7DCD98
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C813AE3
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-Slate.dll!0x00000000215FBD10
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-PropertyEditor.dll!0x000000001C83313C
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5C63
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4B2B
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-Slate.dll!0x0000000021546CF7
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-Slate.dll!0x0000000021546A19
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-Slate.dll!0x0000000021546A19
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4B2B
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-Slate.dll!0x00000000215C4CBD
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4B2B
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-Slate.dll!0x0000000021546A19
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4B2B
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:535][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-Slate.dll!0x00000000215C4CBD
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4B2B
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E60BD
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4C78
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4B2B
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E5CB6
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E44BB
+[2017.05.31-20.58.09:536][674]LogWindows:Error: UE4Editor-SlateCore.dll!0x000000002F6E4D1A
+[2017.05.31-20.58.09:536][674]LogWindows:Error: 
+[2017.05.31-20.58.09:634][674]LogExit: Executing StaticShutdownAfterError
+[2017.05.31-20.58.14:201][674]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.05.31-20.58.14:285][674]Log file closed, 05/31/17 22:58:14
